@@ -1,7 +1,7 @@
 /**
  * @Author Ryan McAleaney
  * @Version 1.0.0 Full Release
- * @Copyright https://github.com/maccamcmacca/bankaccount/blob/master/LICENSE
+ * @Copyright https://github.com/maccamcmacca/Ticket-System/blob/master/LICENSE
  */
 
 package myPack;
