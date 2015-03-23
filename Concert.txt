@@ -1,7 +1,0 @@
-First Name: Ryan
-Second Name: McAleaney
-Address: 92 Bannachra Crescent
-Postcode: G83 0LQ
-Ticket Price: 230.0
-Parking Ticket: 37.5
-Accomodation: 135.0
