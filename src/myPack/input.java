@@ -1,7 +1,7 @@
 /**
  * @Author Ryan McAleaney
  * @Version 1.0.0 Full Release
- * @Copyright https://github.com/maccamcmacca/bankaccount/blob/master/LICENSE
+ * @Copyright https://github.com/maccamcmacca/Ticket-System/blob/master/LICENSE
  */
 
 package myPack;
@@ -17,7 +17,7 @@ public class input {
 	public void getTicketDays() {
 		do {
 			try {
-				System.out.print("\nEnter how many days of admission you would like: \n1 day: £80.00\n2 days: £150.00\n3 days: £230.00\n");
+				System.out.print("\nEnter how many days of admission you would like: \n1 day: Â£80.00\n2 days: Â£150.00\n3 days: Â£230.00\n");
 				Details.daysTickets = sc.nextInt();
 				switch (Details.daysTickets) {
 				case 1:
@@ -45,7 +45,7 @@ public class input {
 
 		do {
 			try {
-				System.out.print("\nEnter how many days of parking you would like:\n1 day: £12.50\n2 days: £25.00\n3 days: 37.50\n");
+				System.out.print("\nEnter how many days of parking you would like:\n1 day: Â£12.50\n2 days: Â£25.00\n3 days: 37.50\n");
 				Details.daysParking = sc.nextInt();
 				switch (Details.daysParking) {
 				case 1:
@@ -69,7 +69,7 @@ public class input {
 	public void getBusTickets() {
 		do {
 		try {
-			System.out.print("\nEnter the amount of bus tickets you would like:\n1 day: £10\n2 days: £20\n3 days: £30\n");
+			System.out.print("\nEnter the amount of bus tickets you would like:\n1 day: Â£10\n2 days: Â£20\n3 days: Â£30\n");
 			Details.daysBus = sc.nextInt();
 
 			switch (Details.daysBus) {
@@ -105,7 +105,7 @@ public class input {
 	public void getIfAccommodation() {
 		do {
 			try {
-				System.out.print("\nWhat accommodation would you like: \n1: £135 Tent\n2: £71 Self Pitch\n3: Will find Own ");
+				System.out.print("\nWhat accommodation would you like: \n1: Â£135 Tent\n2: Â£71 Self Pitch\n3: Will find Own ");
 				Details.accomodationPrice = sc.nextInt();
 				switch (Details.accomodationPrice) {
 				case 1:
